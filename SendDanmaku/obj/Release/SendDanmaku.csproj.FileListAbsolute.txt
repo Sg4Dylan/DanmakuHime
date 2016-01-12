@@ -1,0 +1,11 @@
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\bin\Release\SendDanmaku.exe.config
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\bin\Release\SendDanmaku.exe
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\bin\Release\SendDanmaku.pdb
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.Send.resources
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.Properties.Resources.resources
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.Setting.resources
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.csproj.GenerateResource.Cache
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.exe
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.pdb
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\obj\Release\SendDanmaku.csprojResolveAssemblyReference.cache
+D:\Workspace\CS-Project\SendDanmaku\SendDanmaku\bin\Release\DanmakuHime.exe.config

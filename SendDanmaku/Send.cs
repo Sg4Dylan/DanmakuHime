@@ -45,6 +45,8 @@ namespace SendDanmaku
                     this.cookie = st.cookie;
                 }
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void 退出QToolStripMenuItem_Click(object sender, EventArgs e)
@@ -89,6 +91,8 @@ namespace SendDanmaku
             dataStream.Write(byteArray, 0, byteArray.Length);
             dataStream.Close();
             danmaku_inputbox.Text = null;
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void 帮助HToolStripMenuItem_Click(object sender, EventArgs e)

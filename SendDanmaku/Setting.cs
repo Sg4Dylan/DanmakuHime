@@ -17,7 +17,7 @@ namespace SendDanmaku
             try
             {
                 string[] rows = File.ReadAllLines(Directory.GetCurrentDirectory() + "\\sendsetting.dat");
-                textBox1.Text = rows[0];
+                numericUpDown1.Text = rows[0];
                 textBox2.Text = rows[1];
                 textBox3.Text = rows[2];
                 textBox4.Text = rows[3];
@@ -30,7 +30,7 @@ namespace SendDanmaku
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.fontsize = textBox1.Text;
+            this.fontsize = numericUpDown1.Text;
             this.color = textBox2.Text;
             this.roomid = textBox3.Text;
             this.cookie = textBox4.Text;

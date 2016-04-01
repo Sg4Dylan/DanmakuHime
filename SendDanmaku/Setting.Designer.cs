@@ -40,12 +40,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.color_Buton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.color_Buton);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox1);
@@ -62,7 +64,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Location = new System.Drawing.Point(97, 68);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 23);
+            this.textBox2.Size = new System.Drawing.Size(94, 23);
             this.textBox2.TabIndex = 3;
             this.textBox2.Text = "16777215";
             // 
@@ -80,7 +82,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Location = new System.Drawing.Point(97, 30);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 23);
+            this.textBox1.Size = new System.Drawing.Size(129, 23);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "25";
             // 
@@ -164,6 +166,16 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // color_Buton
+            // 
+            this.color_Buton.Location = new System.Drawing.Point(197, 68);
+            this.color_Buton.Name = "color_Buton";
+            this.color_Buton.Size = new System.Drawing.Size(29, 23);
+            this.color_Buton.TabIndex = 4;
+            this.color_Buton.Text = "...";
+            this.color_Buton.UseVisualStyleBackColor = true;
+            this.color_Buton.Click += new System.EventHandler(this.color_Buton_Click);
+            // 
             // Setting
             // 
             this.AcceptButton = this.button1;
@@ -205,5 +217,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button color_Buton;
     }
 }

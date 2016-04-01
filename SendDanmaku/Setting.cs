@@ -41,6 +41,20 @@ namespace SendDanmaku
             this.Close();
         }
 
+        private void color_Buton_Click(object sender, EventArgs e)
+        {
+            ColorDialog color_Dialog = new ColorDialog();
+            if (color_Dialog.ShowDialog() ==  DialogResult.OK)
+            {
+                //True hex color code
+                //String font_color_unreal = (color_Dialog.Color.R).ToString("X") + (color_Dialog.Color.G).ToString("X") + (color_Dialog.Color.B).ToString("X");
+                //MessageBox.Show(font_color_unreal);
+                String font_color_real = (255-color_Dialog.Color.R).ToString("X") + (255 - color_Dialog.Color.G).ToString("X") + (255 - color_Dialog.Color.B).ToString("X");
+                //MessageBox.Show(Convert.ToInt32(font_color_real, 16).ToString());
+                textBox2.Text = Convert.ToInt32(font_color_real, 16).ToString();
+            }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

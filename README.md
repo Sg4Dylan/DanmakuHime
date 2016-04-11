@@ -1,5 +1,5 @@
 # DanmakuHime
-Send danmaku to bilibili live.
+Send danmaku to bilibili live. 
 
 
 ## TODOS:  
